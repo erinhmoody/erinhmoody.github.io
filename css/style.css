@@ -1,20 +1,258 @@
 
-.nav {
+/* ===============
+    Base Styles
+================= */
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+header, footer {
 	background-color: #C19101;
-	padding: 75px;
-	}
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	font-size: 1.5em;
+}
 
-.logo {
+main {
+	flex-grow: 1;
+}
+
+/* ===============
+	Navigation
+=================== */
+
+.main-nav {
+	width: 100%;
+	display: inline-block;
+	padding: 10px;
+	border-radius: 15px;
+	margin-right: 15px;
+	margin-left: 15px;
+	margin-top: 10px;
+}
+
+
+ul {
+	list-style-type: none;
+}
+
+ li a {
+    float: left;
+	display: block;
+    text-align: center;
+	padding: 10px;
+	text-decoration: none;
+	color:#C19101;
+ }
+
+ li a:hover {
+	 color: #006992;
+	 text-decoration: none;
+ }
+
+.whale {
+	float: left;
+}
+
+.postmates {
 	float: right;
+	margin-right: 30px;
 }
 
-#buttons {
-	color: #0A1241; 
+/* ===============
+	Header
+=================== */
+
+.header {
+	padding: 10px;
+	margin-top: 10px;
+	font-style: bold;
 }
 
 
+.about {
+	text-align: left;
+	padding: 20px;
+	margin: 10px;
+	border-radius: 10px;
+	font-size: 16px;
+}
+
+.exterior-photo {
+	border-radius: 10%;
+	float: right;
+	vertical-align: text-top;
+	padding: 15px;
+}
+
+.wrapper {
+	display: inline-flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-content: flex-start;
+	align-self: auto;
+	align-items: stretch;
+	flex-grow: 2;
+}
+
+.container {
+    display: flex;
+	flex-direction: column;
+	margin-top: 15px;
+	column-rule: 1px solid black;
+}
+
+.column.left {
+	width: 68%;
+	column-gap: 140px;
+}
+
+.menu-header {
+	float:left;
+	color: #006992;
+}
+
+.Menu {
+	color: #C19101;
+	font-size: 1em;
+	text-transform: uppercase;
+	padding: 10px;
+	margin: 5px;
+}
+
+#first-row {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#second-row {
+	padding-bottom: 50px;
+}
+
+#third-row {
+	padding-bottom: 50px;
+}
+
+
+/* ================================
+	About Section/Right Column
+=================================== */
+
+.column.right {
+	width: 32%;
+	background-color: #ddd;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	position: relative;
+	border-radius: 10px;
+	align-content: center;
+}
 
 .hours {
-	font-family: Arial, Helvetica, sans-serif;
-	color: #C19101;
+	color: #006992;
+	font-size: 20px;
+	text-decoration: none;
+	list-style-type: none;
+	padding: 20px;
+	text-align: center;
+}
+
+.location {
+	color: #006992;
+	font-size: 20px;
+	text-decoration: none;
+	list-style-type: none;
+	padding: 20px;
+	text-align: center;
+}
+
+.instagram {
+	padding: 12px;
+	align-items: center;
+
+}
+
+/* ================================
+            Slidshow
+=================================== */
+
+.slideshow-container {
+	position: relative;
+	background: #ddd;
+  }
+  
+  .mySlides {
+	display: none;
+	padding: 50px;
+	text-align: center;
+  }
+  
+  .prev, .next {
+	cursor: pointer;
+	font-weight: bold;
+	font-size: 15px;
+	position: absolute;
+	top: 50%;
+	margin-bottom: 30px;
+	width: auto;
+	padding: 16px;
+	border-radius: 5px;
+  }
+  
+  .next {
+	position: absolute;
+	right: 0;
+	border-radius: 3px 0 0 3px;
+  }
+
+  .prev:hover, .next:hover {
+	background-color: #C19101;
+  }
+  
+  .dot-container {
+	text-align: center;
+	padding: 10px;
+  }
+  
+  .dot {
+	cursor: cursor;
+	height: 15px;
+	width: 15px;
+	margin: 0 2px;
+	background-color: darkgray;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 1s linear;
+  }
+  
+  .active, .dot:hover {
+	background-color: #C19101;
+  }
+  
+  q {font-style: italic;}
+  
+  .author {color:#C19101;}
+
+/* ================================
+	         Footer
+=================================== */
+
+.footer {
+	padding: 2em 0;
+	margin-top: 40px;
+	align-items: center;
+	font-size: 1em;
+}
+
+/* ================================
+	      Media Queries
+=================================== */
+
+@media screen and (max-width: 600px) {
+	.column.left, 
+	.column.right {
+        width: 100%;
+    }
 }

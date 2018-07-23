@@ -1,81 +1,235 @@
+
 <!doctype html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="css\style.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <title>Moby Dick Seafood Third & Winkler</title>
+    <title>Moby Dick Seafood Third and Winkler</title>
+    <link rel="icon" type="img/png" href="img/whale.png" alt="whale logo image"/>
   </head>
-  <header>
+  
 
    <!-- Navbar -->
+          <ul class="main-nav">
+            <img class="whale" src="img/whale.png">
+            <a href="https://postmates.com/merchant/moby-dick-seafood-restaurants-louisville">
+              <img class="postmates" src="https://postmates.com/assets/badges/pm-black-delivery.png" width="200px" alt="Order delivery from Postmates">
+              </a>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Menu</a></li>
+              <li><a href="#">Location</a></li>
+          </ul> 
+    
 
-    <nav>   
-        <ul class="nav" id="buttons">
-            <li class="nav-item">
-              <a class="nav-link active" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Menu</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link" href="#">Location</a>
-            </li>
-            <img class="logo" src="img/whale.png" alt="Moby Dick logo with whale image">
-        </ul>
-        
-    </nav>
-  </header>
-  <body>
 
-     <!-- wrapper -->
+    <!-- Header --> 
 
-  <div class="wrapper">
-
-    <!-- About -->
-
-    <div class="About">
-      <p>A little known fact, Moby Dick has been a local, family owned Louisville institution since inception in 1967. 
-        At Moby Dick Third and Winkler we strive to maintain our original character, aka kitsch. You’ll also find family owners, employees since day one, neighborhood customers and those on their way to Churchill Downs. 
-        Your first mate sandwich, whale of a sandwich or box for two will come with hand cut, hand breaded cod. Those notorious onion rings, also cut and breaded by hand. Watch out for locally sourced fried green tomatoes when in season. 
+    <header class="header">
+      <h1>Moby Dick Seafood Restaurant</h1>
       <img class="exterior-photo" src="img/restaurantoutside.jpg">
-      </p>
+          <p class="about">A little known fact, Moby Dick has been a local, family owned Louisville institution since inception in 1967. 
+            At Moby Dick Third and Winkler we strive to maintain our original character, aka kitsch. You’ll also find family owners, employees since day one, neighborhood customers and those on their way to Churchill Downs. 
+            Your first mate sandwich, whale of a sandwich or box for two will come with hand cut, hand breaded cod. Those notorious onion rings, also cut and breaded by hand. Watch out for locally sourced fried green tomatoes when in season. 
+          </p>
+    </header>
+  
+  <div class="container">  
+
+  <main>
+
+    <body>
+
+  
+    <div class="wrapper">
+
+      <div class="column left">   <!-- Left Column Start -->
+
+         <!-- Menu -->
+
+          <div class="container">  <!-- Menu Container Start -->  
+
+                <h1 class="menu-header">Menu:</h1>
+
+                <div class="row align-items-start" id="first-row">
+
+                    <div class="col-sm" id="Specialties">
+                      <h2 class="Menu">Specialties</h2>
+                        <p class="menu-sub">1st Mate Meal / 7.89<p>
+                        <p class="menu-sub">Box for Two or More / 19.59<p> 
+                        <p class="menu-sub">Fish and Shrimp / 10.09<p>
+                        <p class="menu-sub">Baked Fish / 9.29<p>
+                    </div>
+
+                      <div class="col-sm" id="platters">
+                        <h2 class="Menu">Platters*</h2>
+                          <p class="menu-sub">Clam Dinner / 8.99<p>
+                          <p class="menu-sub">Shrimp Dinner / 11.59<p> 
+                          <p class="menu-sub">Fish Dinner / 11.59<p>
+                          <p class="menu-sub">Baked Fish Dinner / 11.89<p>
+                          <p class="menu-sub">Chicken Tender Dinner / 9.39<p>
+                          <p class="menu-sub">Liver Dinner / 4.44<p>
+                          <h2 class="Menu">*served with fries, slaw and a hushpuppy</h2>  
+                      </div>
+                    
+                      <div class="col-sm" id="Sandwiches">
+                        <h2 class="Menu">Sandwiches</h2>
+                          <p class="menu-sub">1st Mate Sandwich / 6.09<p>
+                          <p class="menu-sub">Moby Dick Sandwich / 8.99<p> 
+                          <p class="menu-sub">Chicken Sandwich / 4.89<p>
+                          <p class="menu-sub">Bratwurst / 3.89<p>
+                      </div> 
+                  
+                </div> 
+            
+
+         
+              <div class="row align-items-start" id="second-row">
+
+                      <div class="col-sm" id="combos">
+                        <h2 class="Menu">Combos</h2>
+                          <p class="menu-sub">One piece sandwich, fries, hushpuppy and 20oz drink / 8.89<p>
+                          <p class="menu-sub">Bratwurst, fries and 20oz drink / 6.49<p> 
+                          <p class="menu-sub">One piece sandwich, half order rings and 20oz drink / 8.89<p>
+                          <p class="menu-sub">Two piece sandwich, fries, slaw, hushpuppy and 20oz drink / 12.19<p> 
+                          <p class="menu-sub">Half pound of clams, fries, slaw, hushpuppy and 20oz drink / 9.79<p>
+                          <p class="menu-sub">Shrimp dinner, fries, slaw, hushpuppy and 20oz drink / 12.19<p>  
+                      </div>
+
+                      <div class="col-sm">
+                        <h2 class="Menu">Sides</h2>
+                          <p class="menu-sub">Slaw / sm 2.29 lg 3.49 pint 4.79<p>
+                          <p class="menu-sub">Mac and Cheese / sm 3.59 lg 4.69<p> 
+                          <p class="menu-sub">Onion rings / sm 3.59 lg 4.19<p>
+                          <p class="menu-sub">Moby size hushpuppy / one .99 or 4 for 1.60<p>    
+                          <p class="menu-sub">French fries / 2.29<p>
+                          <p class="menu-sub">Breaded Okra / Breaded Mushrooms / Breaded Cauliflower / 3.59<p>  
+                          <p class="menu-sub">Mozzarella sticks / 3.79<p>
+                          <p class="menu-sub">Fried pickle chips / 3.19</p>
+                          <p class="menu-sub">Jar of Moby's tartar sauce / 4.39</p>
+                      </div>
+            
+              </div>  
+
+            
+              <div class="row align-items-start"id="third-row">
+                
+                      <div class="col-sm">
+                        <h1 class="Menu">Meals for kiddos*</h1>
+                          <p class="menu-sub">One piece sandwich  / 5.59<p>
+                          <p class="menu-sub">One chicken tender on a bun / 4.09<p> 
+                        <h1 class="Menu">*served with fries, hushpuppy and a small drink</h1>  
+                      </div> 
+
+                      <div class="col-sm">        
+                        <h1 class="Menu">Drinks</h1>
+                          <p class="menu-sub">Coke Diet Coke Sprite Orange Lemonade Iced Tea<p>
+                          <p class="menu-sub">sm 1.69 med 1.79 lg 1.99<p> 
+                          <p class="menu-sub">Coffee Hot Chocolate / .90<p>
+                      </div>  
+
+              </div>
+              
+          </div> <!-- Menu Container End -->  
+      </div> <!-- Left Column End --> 
+
+
+
+          <div class="column right">  <!-- Right column --> 
+
+          <!-- Hours -->           
+                      <div class="col-sm align-middle"> 
+                        <div class="hours">
+                            <li><b>Hours:</b></li>
+                            <li><b>Monday through Friday</b></li> 
+                              <li>10am until 9pm</li>
+                            <li><b>Saturday</b></li> 
+                             <li>10am until 10pm</li>
+                            <li><b>Sunday</b></li> 
+                             <li>11am until 9pm</li>
+                        </div>
+                      </div>  
+
+                      <div class="col-sm">
+                        <div class="location">
+                          <p><b>Location:</b></p>
+                          <script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyDsH9KP5hbVBc-ccX2SpvTSkxrmKF9Mb-Q'></script><div style='overflow:hidden;height:400px;width:250px;'><div id='gmap_canvas' style='height:400px;width:250px;'></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div> <a href='https://www.add-map.net/'>how to add a google map to your website</a> <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=5ad3cff8b1eafcf00ef639b5cf4bdcf707dd2df4'></script><script type='text/javascript'>function init_map(){var myOptions = {zoom:12,center:new google.maps.LatLng(38.2099039,-85.76352050000003),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(38.2099039,-85.76352050000003)});infowindow = new google.maps.InfoWindow({content:'<strong>Moby Dick Restaurant</strong><br>2700 S. Third Street<br>40208 LOuisville<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+                        </div>
+                      </div>
+
+                      <div class="instagram"> 
+                          <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/BUSc5ndD3FW/" data-instgrm-version="9" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:400px; min-width:250px; padding:0; width:50%; width:-webkit-calc(50% - 2px); width:calc(50% - 2px);"><div style="padding:10px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div> <p style=" margin:8px 0 0 0; padding:0 4px;"> <a href="https://www.instagram.com/p/BUSc5ndD3FW/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank">Get your 🤐🐶 on. (That&#39;s emoji for hush puppy) #friday #mobydick #502</a></p> <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">A post shared by <a href="https://www.instagram.com/mobydick_1967/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px;" target="_blank"> Moby Dick Restaurants</a> (@mobydick_1967) on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2017-05-19T21:02:59+00:00">May 19, 2017 at 2:02pm PDT</time></p></div></blockquote> <script async defer src="//www.instagram.com/embed.js"></script>
+
+                      </div>
+
+      </div>  <!-- Right column End --> 
+   
+    
+    </main> 
+
+  </div>  
+
+  <!-- review quote container -->
+
+    <div class="slideshow-container">
+
+      <div class="mySlides">
+        <q>When we moved from Louisville to New York City in 1990, I didn’t figure I’d miss our food. 
+          Back home four years later, though, I deeply craved one delight that seemed impossible to acquire in Gotham: 
+          Our familiar Fried Cod Sandwich on Rye. Who knew this treat was local? First day home we went straight to 
+          Moby Dick, an under-appreciated local mini-chain that, in my view, fries a fillet as well as anyone, 
+          and better than most. Sweet, flaky cod, cloaked in golden, crunchy cracker-crumb crust. 
+          Add simple sliced rye and a dab of tartar sauce, and our hearts warmed with Louisville comfort fare.</q>
+        <p class="author">- Robin Garr, LEO </p>
+      </div>
+
+      <div class="mySlides">
+        <q>I really enjoy going to this location. The employee's are friendly and informative. 
+          The food is delicious. They handle the steady stream of customers in a timely manner 
+          and a attract a variety of people. Thanks for being so friendly and providing excellent customer service.</q>
+        <p class="author">- LaiEsha Allen, Google Review</p>
+      </div>
+
+      <div class="mySlides">
+        <q>On our first night in Louisville for the USTA National Championships, my son wanted seafood. 
+          We chose Moby Dick's, and we were glad we did! It wasn't busy when we arrived, so we quickly placed our order.
+          We grabbed a booth just as a small crowd arrived (beat the rush!) The food was quite good; hot, prepared quickly, and delicious with generous portions. The staff was friendly and accommodating. 
+          It was easy to see why Moby Dick's is popular with University of Louisville students!</q>
+        <p class="author">- Andy L, Trip Advisor</p>
+      </div>
+
+   
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
     </div>
 
-     <!-- Hours -->
-
-    <div class="hours">
-        <h1>Sunday</h1>
-        <h2>11am until 9pm</h2>
-        <h3>Monday through Friday</h3>
-        <h4>10am until 9pm</h4>
-        <h5>Saturday</h5>
-        <h6>10am until 10pm</h6>
-      </div>
-   
-
     
-  </div>
+    <div class="dot-container">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
+          
 
-  <footer>
-      <a href="https://postmates.com/merchant/moby-dick-seafood-restaurants-louisville">
-      <img src="https://postmates.com/assets/badges/pm-black-delivery.png" width="200px" alt="Order delivery from Postmates">
-      </a>
-      <img src="img/keeplouisvilleweird.jpg">
+  <footer class="footer"> 
+      <img src="img/keeplouisvilleweird.jpg" class="weird" alt="Keep Louisville Weird Logo">
+      <p>&copy; 2018 Moby Dick Restaurant</p>
   </footer>
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="./script.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>-->
+  
   </body>
-</html>
+
+  </html>
