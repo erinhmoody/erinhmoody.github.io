@@ -31,6 +31,7 @@ main {
 	margin-right: 15px;
 	margin-left: 15px;
 	margin-top: 10px;
+	position: relative;
 }
 
 
@@ -101,7 +102,6 @@ ul {
     display: flex;
 	flex-direction: column;
 	margin-top: 15px;
-	column-rule: 1px solid black;
 }
 
 .column.left {
@@ -155,8 +155,9 @@ ul {
 	font-size: 20px;
 	text-decoration: none;
 	list-style-type: none;
-	padding: 20px;
 	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
 
 .location {
@@ -164,8 +165,12 @@ ul {
 	font-size: 20px;
 	text-decoration: none;
 	list-style-type: none;
-	padding: 20px;
 	text-align: center;
+	align-items: center;
+}
+
+#map {
+	align-self: center;
 }
 
 .instagram {
@@ -231,9 +236,13 @@ ul {
 	background-color: #C19101;
   }
   
-  q {font-style: italic;}
+  q {
+	  font-style: italic;
+	}
   
-  .author {color:#C19101;}
+  .reviewer {
+	  color:#C19101;
+	}
 
 /* ================================
 	         Footer

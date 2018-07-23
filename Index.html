@@ -21,19 +21,19 @@
             <a href="https://postmates.com/merchant/moby-dick-seafood-restaurants-louisville">
               <img class="postmates" src="https://postmates.com/assets/badges/pm-black-delivery.png" width="200px" alt="Order delivery from Postmates">
               </a>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Menu</a></li>
-              <li><a href="#">Location</a></li>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#menu">Menu</a></li>
+              <li><a href="#location">Location</a></li>
           </ul> 
     
 
 
     <!-- Header --> 
 
-    <header class="header">
+    <header class="header" id="about">
       <h1>Moby Dick Seafood Restaurant</h1>
-      <img class="exterior-photo" src="./img/restaurantoutside.jpg">
+      <img class="exterior-photo" src="./img/restaurantoutside.jpg" alt="Exterior photo of restaurant">
           <p class="about">A little known fact, Moby Dick has been a local, family owned Louisville institution since inception in 1967. 
             At Moby Dick Third and Winkler we strive to maintain our original character, aka kitsch. You’ll also find family owners, employees since day one, neighborhood customers and those on their way to Churchill Downs. 
             Your first mate sandwich, whale of a sandwich or box for two will come with hand cut, hand breaded cod. Those notorious onion rings, also cut and breaded by hand. Watch out for locally sourced fried green tomatoes when in season. 
@@ -55,7 +55,7 @@
 
           <div class="container">  <!-- Menu Container Start -->  
 
-                <h1 class="menu-header">Menu:</h1>
+                <h1 class="menu-header" id="menu">Menu:</h1>
 
                 <div class="row align-items-start" id="first-row">
 
@@ -157,16 +157,16 @@
                       </div>  
 
                       <div class="col-sm">
-                        <div class="location">
+                        <div class="location" id="location">
                           <p><b>Location:</b></p>
-                          <script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyDsH9KP5hbVBc-ccX2SpvTSkxrmKF9Mb-Q'></script><div style='overflow:hidden;height:400px;width:250px;'><div id='gmap_canvas' style='height:400px;width:250px;'></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div> <a href='https://www.add-map.net/'>how to add a google map to your website</a> <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=5ad3cff8b1eafcf00ef639b5cf4bdcf707dd2df4'></script><script type='text/javascript'>function init_map(){var myOptions = {zoom:12,center:new google.maps.LatLng(38.2099039,-85.76352050000003),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(38.2099039,-85.76352050000003)});infowindow = new google.maps.InfoWindow({content:'<strong>Moby Dick Restaurant</strong><br>2700 S. Third Street<br>40208 LOuisville<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+                          <script id="map" alt="google map of location" src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyDsH9KP5hbVBc-ccX2SpvTSkxrmKF9Mb-Q'></script><div style='overflow:hidden;height:400px;width:250px;'><div id='gmap_canvas' style='height:400px;width:250px;'></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div> <a href='https://www.add-map.net/'>how to add a google map to your website</a> <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=5ad3cff8b1eafcf00ef639b5cf4bdcf707dd2df4'></script><script type='text/javascript'>function init_map(){var myOptions = {zoom:12,center:new google.maps.LatLng(38.2099039,-85.76352050000003),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(38.2099039,-85.76352050000003)});infowindow = new google.maps.InfoWindow({content:'<strong>Moby Dick Restaurant</strong><br>2700 S. Third Street<br>40208 LOuisville<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
                         </div>
                       </div>
 
-                      <div class="instagram"> 
+                      <!-- <div class="instagram"> 
                           <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/BUSc5ndD3FW/" data-instgrm-version="9" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:400px; min-width:250px; padding:0; width:50%; width:-webkit-calc(50% - 2px); width:calc(50% - 2px);"><div style="padding:10px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div> <p style=" margin:8px 0 0 0; padding:0 4px;"> <a href="https://www.instagram.com/p/BUSc5ndD3FW/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank">Get your 🤐🐶 on. (That&#39;s emoji for hush puppy) #friday #mobydick #502</a></p> <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">A post shared by <a href="https://www.instagram.com/mobydick_1967/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px;" target="_blank"> Moby Dick Restaurants</a> (@mobydick_1967) on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2017-05-19T21:02:59+00:00">May 19, 2017 at 2:02pm PDT</time></p></div></blockquote> <script async defer src="//www.instagram.com/embed.js"></script>
 
-                      </div>
+                      </div> -->
 
       </div>  <!-- Right column End --> 
    
@@ -186,14 +186,14 @@
           Moby Dick, an under-appreciated local mini-chain that, in my view, fries a fillet as well as anyone, 
           and better than most. Sweet, flaky cod, cloaked in golden, crunchy cracker-crumb crust. 
           Add simple sliced rye and a dab of tartar sauce, and our hearts warmed with Louisville comfort fare.</q>
-        <p class="author">- Robin Garr, LEO </p>
+        <p class="reviewer">- Robin Garr, LEO </p>
       </div>
 
       <div class="mySlides">
         <q>I really enjoy going to this location. The employee's are friendly and informative. 
           The food is delicious. They handle the steady stream of customers in a timely manner 
           and a attract a variety of people. Thanks for being so friendly and providing excellent customer service.</q>
-        <p class="author">- LaiEsha Allen, Google Review</p>
+        <p class="reviewer">- LaiEsha Allen, Google Review</p>
       </div>
 
       <div class="mySlides">
@@ -201,12 +201,12 @@
           We chose Moby Dick's, and we were glad we did! It wasn't busy when we arrived, so we quickly placed our order.
           We grabbed a booth just as a small crowd arrived (beat the rush!) The food was quite good; hot, prepared quickly, and delicious with generous portions. The staff was friendly and accommodating. 
           It was easy to see why Moby Dick's is popular with University of Louisville students!</q>
-        <p class="author">- Andy L, Trip Advisor</p>
+        <p class="reviewer">- Andy L, Trip Advisor</p>
       </div>
 
    
-      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      <a class="prev" onclick="plusSlides(-1)">&#10096;</a>
+      <a class="next" onclick="plusSlides(1)">&#10097;</a>
     </div>
 
     
