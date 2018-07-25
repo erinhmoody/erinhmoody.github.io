@@ -59,7 +59,6 @@ ul {
 
 .postmates {
 	float: right;
-	margin-right: 30px;
 }
 
 /* ===============
@@ -229,7 +228,6 @@ ul {
 	background-color: darkgray;
 	border-radius: 50%;
 	display: inline-block;
-	transition: background-color 1s linear;
   }
   
   .active, .dot:hover {
@@ -263,5 +261,22 @@ ul {
 	.column.left, 
 	.column.right {
         width: 100%;
-    }
+	}
+	li a {
+		text-align: center;
+		width: 100%;
+		padding: 10px 0;
+		margin: 0;
+		}
+	.whale, .postmates {
+		text-align: center;
+		padding: 10px 0;
+		margin: 0;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.exterior-photo {
+		width: 100%;
+	}
 }
